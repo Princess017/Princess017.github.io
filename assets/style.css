@@ -7,8 +7,11 @@ background-color:#000!important;
   
 }
 
-a{color:#00a9c6; text-decoration:none;}
-a:hover{color:#666;}
+a{color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;}
+a:hover{color:#666; text-decoration: none;}
 .btn,a,.btn:hover,a:hover {
 -webkit-transition: all 0.3s ease-in-out;
 -moz-transition: all 0.3s ease-in-out;
@@ -55,6 +58,32 @@ font-size: 14px;
 .banner .caption-info h1{font:normal 4.5em,Arial,Helvetica;text-transform:capitalize;}
 .banner .caption-info p{font:600 1.7em Josefin Sans,Arial,Helvetica;}
 .banner a.explore{color: #fff;}
+
+@media (max-width: 767px){
+.banner .caption, .carousel-caption, .carousel-control, .carousel-indicators {
+    display: block!important;
+}
+
+    .banner .caption img { max-width: 100%; padding-top: 30px;  }
+    
+    .banner .caption-info p {     font: 600 1em Josefin Sans,Arial,Helvetica; }
+
+    a {font-size: 15px;}
+
+}
+
+
+p.booknowbtn {
+    border: 1px solid #fff;
+    padding: 14px;
+}
+
+
+.booknowbtn:hover {
+    background-color: white;
+}
+
+
 
 /*about*/
 .about.spacer{padding-left: 4em; padding-right: 4em;padding-bottom: 0;}
